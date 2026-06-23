@@ -4,9 +4,10 @@ export default defineConfig({
   title: 'Molio 源码解析',
   description: '本地知识管理 + AI 写作 + 多平台发布 — 架构内幕',
   lang: 'zh-CN',
+  base: '/molio-book/',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/molio-book/favicon.svg' }],
   ],
 
   themeConfig: {
