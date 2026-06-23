@@ -1,0 +1,14 @@
+{
+  "name": "molio-book",
+  "version": "1.0.0",
+  "description": "Molio 源码解析 — 本地知识管理 + AI 写作 + 多平台发布的架构内幕",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
